@@ -1,0 +1,28 @@
+/*rwd*/
+$sm:576px;
+$md:768px;
+$lg:992px;
+$xl:1200px;
+
+/*color*/
+$c-base:#FFFFFF; /*文字*/
+$c-primary:#3F5D45;
+$c-secondary:#8DA291;
+$c-tertiary:#EAF0ED;
+$c-fourth:#FFE180;
+
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+$font-family:"Noto Sans TC", sans-serif;
+
+$fz-base:1rem;
+$fz-sm:$fz-base*0.75; /*12px*/
+$fz-lg:$fz-base*1.25; /*20px*/
+$fz-xl:$fz-base*1.5;/*24px*/
+
+$fz-h1:$fz-base*3; /*48px*/
+$fz-h2:$fz-base*2.25; /*36px*/
+$fz-h3:$fz-base*1.5; /*24px*/
+
+$fz-h6:30px;
