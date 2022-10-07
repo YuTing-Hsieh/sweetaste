@@ -1,0 +1,37 @@
+// body {
+//     font-family: $font-family;
+// }
+
+.container{
+    max-width: 315px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.inputGroup{
+    display: flex;
+    & .input-icon{
+       background: $c-tertiary;
+       padding: 16px 20px;
+       color: $c-primary;
+    }
+    & .form-control{
+        background: $c-tertiary;       
+        padding: 16px 0px;
+        border: none;
+        color: $c-primary;
+    }
+    & .input-btn{
+        padding: 20px 24px;
+        background: $c-fourth;
+        border: none;
+        cursor: pointer;
+        color: $c-primary;
+        &:hover{
+            background: lighten($c-fourth,5%);
+        }
+    }
+}
