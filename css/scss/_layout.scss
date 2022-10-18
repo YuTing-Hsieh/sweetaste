@@ -15,7 +15,6 @@
     display: flex;
     background: $c-tertiary; 
     color: $c-primary;
-    border:5px solid red;
     & .input-icon{
        padding: 16px 20px;
        font-size: 24px;
@@ -27,13 +26,10 @@
         background-color: transparent;
     }
     & .input-btn{
-        -webkit-appearance: button;
-        border-radius: 0px;
-
+        margin: 0;
         padding: 20px 24px;
         background: $c-fourth;
         border:20px solid black;
-        display: inline-block;
         cursor: pointer;
         color: $c-primary;
         &:hover{
