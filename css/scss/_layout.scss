@@ -23,13 +23,13 @@
     & .form-control{
         padding: 16px 0px;
         border: none; 
-        outline: none;/*手機板input出現空隙問題*/
+        outline: none;
         background-color: transparent;
     }
     & .input-btn{
         padding: 20px 24px;
         background: $c-fourth;
-        border: none;
+        border-color: $c-fourth;
         cursor: pointer;
         color: $c-primary;
         &:hover{

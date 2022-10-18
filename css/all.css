@@ -99,13 +99,13 @@ a {
 .inputGroup .form-control {
   padding: 16px 0px;
   border: none;
-  outline: none; /*手機板input出現空隙問題*/
+  outline: none;
   background-color: transparent;
 }
 .inputGroup .input-btn {
   padding: 20px 24px;
   background: #FFE180;
-  border: none;
+  border-color: #FFE180;
   cursor: pointer;
   color: #3F5D45;
 }
