@@ -103,6 +103,7 @@ a {
   background-color: transparent;
 }
 .inputGroup .input-btn {
+  -webkit-appearance: none;
   padding: 20px 24px;
   background: #FFE180;
   border: 20px solid black;

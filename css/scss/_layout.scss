@@ -27,6 +27,7 @@
         background-color: transparent;
     }
     & .input-btn{
+        -webkit-appearance: none;
         padding: 20px 24px;
         background: $c-fourth;
         border:20px solid black;
