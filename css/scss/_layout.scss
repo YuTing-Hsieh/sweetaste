@@ -27,9 +27,9 @@
         background-color: transparent;
     }
     & .input-btn{
-        -webkit-appearance: none;
+        -webkit-appearance: button;
         border-radius: 0px;
-
+        margin: 0;
         padding: 20px 24px;
         background: $c-fourth;
         border:20px solid black;
