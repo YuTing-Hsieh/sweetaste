@@ -104,6 +104,7 @@ a {
 }
 .inputGroup .input-btn {
   -webkit-appearance: none;
+  border-radius: 0px;
   padding: 20px 24px;
   background: #FFE180;
   border: 20px solid black;
