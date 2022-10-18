@@ -88,26 +88,24 @@ a {
 
 .inputGroup {
   display: flex;
+  background: #EAF0ED;
+  color: #3F5D45;
 }
 .inputGroup .input-icon {
-  background: #EAF0ED;
   padding: 16px 20px;
-  color: #3F5D45;
   font-size: 24px;
 }
 .inputGroup .form-control {
-  background: #EAF0ED;
   padding: 16px 0px;
   border: none;
   outline: none; /*手機板input出現空隙問題*/
-  color: #3F5D45;
+  background-color: transparent;
 }
 .inputGroup .input-btn {
   padding: 20px 24px;
   background: #FFE180;
   border: none;
   cursor: pointer;
-  color: #3F5D45;
 }
 .inputGroup .input-btn:hover {
   background: #ffe79a;
