@@ -90,7 +90,7 @@ a {
   display: flex;
   background: #EAF0ED;
   color: #3F5D45;
-  border: 0px;
+  border: 5px solid red;
 }
 .inputGroup .input-icon {
   padding: 16px 20px;
@@ -105,7 +105,7 @@ a {
 .inputGroup .input-btn {
   padding: 20px 24px;
   background: #FFE180;
-  border-color: #FFE180;
+  border: 1px solid #FFE180;
   cursor: pointer;
   color: #3F5D45;
 }
