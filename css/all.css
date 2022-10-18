@@ -105,7 +105,7 @@ a {
 .inputGroup .input-btn {
   padding: 20px 24px;
   background: #FFE180;
-  border: 1px solid #FFE180;
+  border: 20px solid black;
   cursor: pointer;
   color: #3F5D45;
 }
