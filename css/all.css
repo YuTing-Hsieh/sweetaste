@@ -108,7 +108,7 @@ a {
   padding: 20px 24px;
   background: #FFE180;
   border: 20px solid black;
-  display: block;
+  display: inline-block;
   cursor: pointer;
   color: #3F5D45;
 }
