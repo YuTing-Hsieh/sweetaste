@@ -10,10 +10,21 @@
     <script src="https://kit.fontawesome.com/b4675ba076.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="container header d-flex">
-        <a href="index.html" class="headerBar"><i class="fa-solid fa-bars"></i></a>
-        <h1><img src="img/logotype-sm-dark.png" alt="logo" class="logo"></h1>
-        <a href="" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+    <header class="container">
+        <div class="header-sm d-flex">
+            <a href="index.html" class="header-sm__Bar"><i class="fa-solid fa-bars"></i></a>
+            <h1><img src="img/logotype-sm-dark.png" alt="logo" class="logo"></h1>
+            <a href="" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div> 
+        <div class="header-md d-flex">
+            <h1><img src="img/logo-all-dark.png" alt="logo" class="logo"></h1>
+            <ul class="navbar d-flex">
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">甜點</a></li>
+                <li><a href="#">登入</a></li>
+                <li><a href="#" class="cart"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>      
     </header>
     <div class="banner">
         <img src="img/slide.jpg" alt="slide">
@@ -34,33 +45,82 @@
     </ul>
     <section class="reason">
         <img src="img/sm-為什麼選擇了做甜點.png" alt="為什麼選擇了做甜點" class="reason__smtxtPic">
-        <img src="img/reason2.jpg" alt="food" class="reason__foodPic">        
-        <div class="reason__content">
-            <p>
-                青山依舊在，幾度夕陽紅。慣看秋月春風。
-                一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
-            </p>
-            <p>
-                是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，古今多少事，都付笑談中。
-            </p>
-        </div>       
+        <div class="container d-flex">
+            <img src="img/reason2.jpg" alt="food" class="reason__foodPic">  
+            <div class="reason__box d-flex">
+                <div class="reason__content">
+                    <p>
+                        青山依舊在，幾度夕陽紅。慣看秋月春風。
+                        一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
+                    </p>
+                    <p>
+                        是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，古今多少事，都付笑談中。
+                    </p>
+                </div>  
+                <img src="img/lg-為什麼選擇了做甜點.png" alt="為什麼選擇了做甜點" class="reason__lgtxtPic"> 
+            </div> 
+        </div>
     </section>
     <section class="reason">
         <img src="img/sm-為什麼一定要吃甜點.png" alt="為什麼一定要吃甜點" class="reason__smtxtPic">
-        <img src="img/reason1.jpg" alt="food" class="reason__foodPic">        
-        <div class="reason__content">
-            <p>
-                青山依舊在，幾度夕陽紅。慣看秋月春風。
-                一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
-            </p>
-            <p>
-                是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，古今多少事，都付笑談中。
-            </p>
-        </div>       
+        <div class="container d-flex">
+            <img src="img/reason1.jpg" alt="food" class="reason__foodPic order-2"> 
+            <div class="reason__box d-flex order-1">
+                <div class="reason__content">
+                    <p>
+                        青山依舊在，幾度夕陽紅。慣看秋月春風。
+                        一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
+                    </p>
+                    <p>
+                        是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，古今多少事，都付笑談中。
+                    </p>
+                </div>      
+                <img src="img/lg-為什麼一定要吃甜點.png" alt="為什麼一定要吃甜點" class="reason__lgtxtPic"> 
+            </div>      
+        </div>
     </section>
     <section class="noreason">
-        <img src="img/sm-想吃甜點是不需要理由的-1.png" alt="" class="reason__smtxtPic">
+        <img src="img/sm-想吃甜點是不需要理由的-1.png" alt="想吃甜點是不需要理由的" class="reason__smtxtPic">
+        <img src="img/lg-想吃甜點是不需要理由的.png" alt="想吃甜點是不需要理由的" class="noreason__lgtxtPic"> 
     </section>
+    <ul class="l-list d-flex container">
+        <li class="card">
+            <div class="card__img">
+                <p class="card__tag">本日精選</p>
+                <i class="card__favorite fa-regular fa-heart"></i>
+                <img src="img/item1.jpg" alt="">
+            </div>
+            <div class="card__body d-flex">
+                <div class="card__title">焦糖馬卡龍</div>
+                <div class="card__content">NT $450</div>
+            </div>
+            <div class="card__addCart">加入購物車</div>
+        </li>
+        <li class="card">
+            <div class="card__img">
+                <p class="card__tag">本日精選</p>
+                <i class="card__favorite fa-regular fa-heart"></i>
+                <img src="img/item2.jpg" alt="">
+            </div>
+            <div class="card__body d-flex">
+                <div class="card__title">焦糖馬卡龍</div>
+                <div class="card__content">NT $450</div>
+            </div>
+            <div class="card__addCart">加入購物車</div>
+        </li>
+        <li class="card">
+            <div class="card__img">
+                <p class="card__tag">本日精選</p>
+                <i class="card__favorite fa-regular fa-heart"></i>
+                <img src="img/item3.jpg" alt="">
+            </div>
+            <div class="card__body d-flex">
+                <div class="card__title">焦糖馬卡龍</div>
+                <div class="card__content">NT $450</div>
+            </div>
+            <div class="card__addCart">加入購物車</div>
+        </li>
+    </ul>
     <footer>
         <div class="subscribe">
             <div class="subscribe__body container d-flex">
@@ -76,13 +136,14 @@
             </div>          
         </div>
         <div class="footBottom">
-            <div class="container d-flex">
-                <div class="footBottom__content">
+            <div class="footBottom__information container d-flex">
+                <div class="footBottom__content d-flex">
                     <img src="img/logotype-sm-dark.png" alt="logo" class="footBottom__logo">
                     <p>07-1234-5678</br>sweetaste@email.com</br>800 高雄市新興區幸福路 520 號</p>
                 </div>
+                <img src="img/sm-今天是個吃甜點的好日子.png" alt="" class="footBottom__txtPic">
             </div>
-            <div class="container d-flex footBottom__contact">
+            <div class="footBottom__contact container d-flex ">
                 <ul class="d-flex">
                     <li><img src="img/ic-line@.png" alt="ic-line" class="footBottom__contactIcon"></li>
                     <li><img src="img/ic-facebook.png" alt="facebook" class="footBottom__contactIcon"></li>

@@ -1,0 +1,106 @@
+.inputGroup{
+    display: flex;
+    background: $c-tertiary; 
+    color: $c-primary;
+    & .input-icon{
+       padding: 16px 20px;
+       font-size: 24px;
+    }
+    & .form-control{
+        padding: 16px 0px;
+        border: none; 
+        outline: none;
+        background-color: transparent;
+    }
+    & .input-btn{
+        margin: 0;
+        padding: 20px 24px;
+        background: $c-fourth;
+        border:$c-fourth;
+        cursor: pointer;
+        color: $c-primary;
+        &:hover{
+            background: lighten($c-fourth,5%);
+        }
+    }
+}
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 30px;
+    max-width: 100%;
+    @include rwd($md){
+        max-width: calc((100% - 40px) /3 );
+        flex: 0 0 calc((100% - 40px) /3 );
+        justify-content: space-between;
+        
+        & + .card{
+            margin-left: 20px;
+        }
+    }
+    &:not(:first-child){
+        display: none;
+        @include rwd($md){
+            display: block;
+        }
+    }
+    &__img{
+       img{
+            height: 315px;
+            object-fit: cover;
+        }
+    }
+    &__tag{
+        position: absolute;
+        top: 0;
+        left: 20px;
+        background: $c-primary;
+        color: $c-base;
+        writing-mode:vertical-lr;
+        padding: 10px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    &__favorite{
+        position: absolute;
+        top: 19px;
+        right: 24.2px;
+        &:hover{
+            cursor: pointer;
+            color: lighten($c-primary,50%);
+        }
+    }
+    &__body{
+        color:$c-primary;
+        font-size: $fz-lg;
+        text-align: center;
+        display: flex;
+        *{
+            padding: 14px 0;
+            border: solid 1px $c-tertiary;
+            border-collapse: collapse;
+        }
+    }
+    &__title{
+        width: 183px;
+        
+    }
+    &__content{
+        width: 133.35px;
+    }
+    &__addCart{
+        background: $c-tertiary;
+        color: $c-primary;
+        font-size: $fz-xl;
+        padding: 16px 0;
+        text-align: center;
+        font-weight: bold;
+        line-height: 33px;
+        cursor: pointer;
+        &:hover{
+            background: lighten($c-primary,50%);
+        }
+    }
+}
